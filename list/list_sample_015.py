@@ -7,3 +7,7 @@ fullname = []
 for n1, n2 in zip(name1, name2):
     fullname.append(n1+n2)
 print(fullname)
+
+
+# 実行結果
+# ['suzuki ichiro', 'tanaka jiro', 'yamamoto saburo', 'sato siro']

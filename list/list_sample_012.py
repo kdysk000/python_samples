@@ -9,3 +9,8 @@ print(words)
 
 words.sort( key=len )
 print(words)
+
+
+# 実行結果
+# ['ab', 'c', 'defg', 'hij']
+# ['c', 'ab', 'hij', 'defg']

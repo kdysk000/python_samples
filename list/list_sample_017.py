@@ -4,3 +4,7 @@
 nums = [ 1, 4, 2, 3, 5 ]
 double_nums = [ num*2 for num in nums if num > 2 ]  # 3以上の数値だけ取り出す
 print( double_nums )
+
+
+# 実行結果
+# [8, 6, 10]

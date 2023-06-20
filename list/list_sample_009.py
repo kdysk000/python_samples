@@ -10,3 +10,10 @@ print(li1 is li2)
 
 print(li2)
 print(li1 is li3)
+
+
+# 実行結果
+# [1, 2, 3, 4]
+# True
+# [1, 2, 3, 4]
+# False

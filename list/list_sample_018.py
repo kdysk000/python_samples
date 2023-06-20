@@ -12,3 +12,8 @@ if 6 in nums:
     print( "6 in nums" )
 else:
     print( "6 not in nums" )
+
+
+# 実行結果
+# 1 in nums
+# 6 not in nums

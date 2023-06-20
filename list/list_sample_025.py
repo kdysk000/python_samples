@@ -3,3 +3,7 @@
 nums = [ 1, 2, 3, 4, 5 ]
 _, *middle, _ = nums
 print(middle)
+
+
+# 実行結果
+# [2, 3, 4]

@@ -7,3 +7,8 @@ print(li1)
 
 li2 = sorted(li1, reverse=True)
 print(li2)
+
+
+# 実行結果
+# [1, 2, 3, 4]
+# [4, 3, 2, 1]

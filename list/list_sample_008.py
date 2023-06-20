@@ -6,3 +6,8 @@ print(li)
 
 str = " ".join(li)
 print(str)
+
+
+# 実行結果
+# ['I', 'have', 'a', 'pen.']
+# I have a pen.

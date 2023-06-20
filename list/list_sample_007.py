@@ -7,3 +7,8 @@ print(str)
 
 li = str.split()
 print(li)
+
+
+# 実行結果
+# I have a pen.
+# ['I', 'have', 'a', 'pen.']

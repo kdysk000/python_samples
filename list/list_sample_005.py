@@ -8,3 +8,9 @@ print(li)
 n = li.pop()  # 引数なしの場合はlistの終端を削除
 print(li)
 print(n)
+
+
+# 実行結果
+# [1, 2, 3, 4]
+# [1, 2, 3]
+# 4
