@@ -8,3 +8,15 @@ print()
 
 ser['d'] = 4
 print(ser)
+
+# 実行結果
+# a    1
+# b    2
+# c    3
+# Name: X, dtype: int64
+# 
+# a    1
+# b    2
+# c    3
+# d    4
+# Name: X, dtype: int64

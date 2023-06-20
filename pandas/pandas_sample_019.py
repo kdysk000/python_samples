@@ -11,5 +11,19 @@ print(df)
 print()
 
 # lambda (特定の列を除外して読み込む)
-df =pd.read_csv('./data/data.csv', index_col=0, usecols=lambda x: x != 'C')  #C列以外を読み込む
+df =pd.read_csv('./data/data.csv', index_col=0, usecols=lambda x: x != 'C')  # C列以外を読み込む
 print(df)
+
+
+# 実行結果
+#   Unnamed: 0   A   B   C   D
+# 0          a   1   2   3   4
+# 1          b   5   6   7   8
+# 2          c   9  10  11  12
+# 3          d  13  14  15  16
+# 
+#     A   B   D
+# a   1   2   4
+# b   5   6   8
+# c   9  10  12
+# d  13  14  16

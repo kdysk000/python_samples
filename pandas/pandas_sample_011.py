@@ -19,3 +19,28 @@ print()
 
 df4 = pd.concat( [df1, df2], axis=1 )
 print(df4)
+
+
+# 実行結果
+#    A   B
+# a  1   2
+# b  5   6
+# c  9  10
+# 
+#     C   D
+# a   3   4
+# b   7   8
+# c  11  12
+# 
+#      A     B     C     D
+# a  1.0   2.0   NaN   NaN
+# b  5.0   6.0   NaN   NaN
+# c  9.0  10.0   NaN   NaN
+# a  NaN   NaN   3.0   4.0
+# b  NaN   NaN   7.0   8.0
+# c  NaN   NaN  11.0  12.0
+# 
+#    A   B   C   D
+# a  1   2   3   4
+# b  5   6   7   8
+# c  9  10  11  12

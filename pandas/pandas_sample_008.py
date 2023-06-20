@@ -13,3 +13,20 @@ print()
 
 df = df.assign(D=0)
 print(df)
+
+
+# 実行結果
+#    A  B  C
+# a  1  2  3
+# b  4  5  6
+# c  7  8  9
+# 
+#    A  B  C
+# a  1  2  3
+# b  4  5  6
+# c  7  8  9
+# 
+#    A  B  C  D
+# a  1  2  3  0
+# b  4  5  6  0
+# c  7  8  9  0

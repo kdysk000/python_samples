@@ -19,3 +19,25 @@ print()
 
 df4 = pd.concat( [df1, df2], join='inner' )
 print(df4)
+
+
+# 実行結果
+#    A  B
+# a  1  2
+# b  3  4
+# 
+#    B  C
+# c  5  6
+# d  7  8
+# 
+#      A  B    C
+# a  1.0  2  NaN
+# b  3.0  4  NaN
+# c  NaN  5  6.0
+# d  NaN  7  8.0
+# 
+#    B
+# a  2
+# b  4
+# c  5
+# d  7

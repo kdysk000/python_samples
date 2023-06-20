@@ -12,3 +12,17 @@ print()
 
 df =pd.read_csv('./data/data.csv', index_col=0)
 print(df)
+
+
+# 実行結果
+#   Unnamed: 0   A   B   C   D
+# 0          a   1   2   3   4
+# 1          b   5   6   7   8
+# 2          c   9  10  11  12
+# 3          d  13  14  15  16
+# 
+#     A   B   C   D
+# a   1   2   3   4
+# b   5   6   7   8
+# c   9  10  11  12
+# d  13  14  15  16

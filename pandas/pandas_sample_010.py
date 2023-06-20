@@ -12,3 +12,19 @@ print(df2)
 
 df3 = df1.append(df2)
 print(df3)
+
+
+# 実行結果
+#    A  B  C  D
+# a  1  2  3  4
+# b  5  6  7  8
+#     A   B   C   D
+# c   9  10  11  12
+# d  13  14  15  16
+# pandas_sample_010.py:13: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
+#   df3 = df1.append(df2)
+#     A   B   C   D
+# a   1   2   3   4
+# b   5   6   7   8
+# c   9  10  11  12
+# d  13  14  15  16

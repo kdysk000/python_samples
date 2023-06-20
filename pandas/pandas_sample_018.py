@@ -12,3 +12,16 @@ print()
 
 df =pd.read_csv('./data/data.csv', usecols=[1,3])
 print(df.values)
+
+
+# 実行結果
+#   Unnamed: 0   A   B   C   D
+# 0          a   1   2   3   4
+# 1          b   5   6   7   8
+# 2          c   9  10  11  12
+# 3          d  13  14  15  16
+# 
+# [[ 1  3]
+#  [ 5  7]
+#  [ 9 11]
+#  [13 15]]

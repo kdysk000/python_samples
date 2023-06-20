@@ -15,3 +15,21 @@ print(ser)
 # NumPyからの作成
 ser  = pd.Series( data = np.array([1,2,3,4]), index = [ 'a', 'b', 'c', 'd' ], name = 'X' )
 print(ser)
+
+
+# 実行結果
+# a    1
+# b    2
+# c    3
+# d    4
+# Name: X, dtype: int64
+# a    1
+# b    2
+# c    3
+# d    4
+# Name: X, dtype: int64
+# a    1
+# b    2
+# c    3
+# d    4
+# Name: X, dtype: int64

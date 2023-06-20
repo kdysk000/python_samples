@@ -22,3 +22,19 @@ print()
 # 指定列でソート
 df.sort_values(by='X', ascending=True, inplace=True)
 print(df)
+
+# 実行結果
+#    X  Y  Z
+# a  1  2  3
+# b  4  5  6
+# c  7  8  9
+# 
+#    X  Y  Z
+# c  7  8  9
+# b  4  5  6
+# a  1  2  3
+# 
+#    X  Y  Z
+# a  1  2  3
+# b  4  5  6
+# c  7  8  9

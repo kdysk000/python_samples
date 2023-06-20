@@ -29,3 +29,25 @@ print()
 # NumPyからの作成
 df =pd.DataFrame( data = np.array([[1,2,3],[4,5,6],[7,8,9]]), index = [ 'a', 'b', 'c' ], columns = [ 'X', 'Y', 'Z' ] )
 print(df)
+
+
+# 実行結果
+#    X  Y  Z
+# a  1  2  3
+# b  4  5  6
+# c  7  8  9
+# 
+#    X  Y  Z
+# a  1  2  3
+# b  4  5  6
+# c  7  8  9
+# 
+#    X  Y  Z
+# a  1  2  3
+# b  4  5  6
+# c  7  8  9
+# 
+#    X  Y  Z
+# a  1  2  3
+# b  4  5  6
+# c  7  8  9
