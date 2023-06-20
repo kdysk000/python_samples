@@ -6,3 +6,9 @@ s = "aabbccddeeffaa"
 print(s)
 print(s.count("aa")) # 先頭から"aa"が何個含まれるかを検索
 print(s.count("aa", 1)) # 2文字目から"aa"が何個含まれるかを検索
+
+
+# 実行結果
+# aabbccddeeffaa
+# 2
+# 1

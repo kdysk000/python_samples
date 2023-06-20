@@ -3,3 +3,8 @@
 s = "Hello World"
 print(s)
 print(len(s))
+
+
+# 実行結果
+# Hello World
+# 11

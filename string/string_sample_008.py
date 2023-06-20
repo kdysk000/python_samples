@@ -9,4 +9,14 @@ s = "aabbccddeeffaa"
 print(s)
 print(s.index("bb")) # "bb"がみつかった最初の位置を返す
 print(s.rindex("aa")) # "aa"がみつかった最後の位置を返す
-print(s.index("zz")) # "zz"は存在しないので-1
+print(s.index("zz")) # "zz"は存在しないのでValueError
+
+
+# 実行結果
+# aabbccddeeffaa
+# 2
+# 12
+# Traceback (most recent call last):
+#   File "string_sample_008.py", line 12, in <module>
+#     print(s.index("zz")) # "zz"は存在しないので-1
+# ValueError: substring not found

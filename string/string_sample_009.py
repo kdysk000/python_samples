@@ -5,3 +5,8 @@
 s = "aabbccddeeffaa"
 print(s)
 print(s.replace("aa", "zz"))
+
+
+# 実行結果
+# aabbccddeeffaa
+# zzbbccddeeffzz

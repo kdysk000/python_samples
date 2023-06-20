@@ -10,3 +10,10 @@ print(s)
 print(s.find("bb")) # "bb"がみつかった最初の位置を返す
 print(s.rfind("aa")) # "aa"がみつかった最後の位置を返す
 print(s.find("zz")) # "zz"は存在しないので-1
+
+
+# 実行結果
+# aabbccddeeffaa
+# 2
+# 12
+# -1

@@ -8,3 +8,10 @@ s = "  Hello World \n"
 print(s)
 print(s.strip())
 print(s.rstrip()) # 先頭の空白は除去されない
+
+
+# 実行結果
+#   Hello World 
+# 
+# Hello World
+#   Hello World

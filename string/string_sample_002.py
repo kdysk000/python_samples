@@ -4,3 +4,8 @@
 s = "Hello World"
 print(s)
 print(s[6:11])
+
+
+# 実行結果
+# Hello World
+# World
