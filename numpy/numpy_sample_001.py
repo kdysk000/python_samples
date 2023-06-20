@@ -8,3 +8,8 @@ import numpy as np
 ar = np.array([1,2,3,4])
 print(ar)
 print(type(ar))
+
+
+# 実行結果
+# [1 2 3 4]
+# <class 'numpy.ndarray'>

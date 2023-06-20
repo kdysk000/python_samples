@@ -9,3 +9,8 @@ print( ar1 )
 
 ar2 = np.ones( 5, dtype=int )
 print( ar2 )
+
+
+# 実行結果
+# [0 0 0 0 0]
+# [1 1 1 1 1]

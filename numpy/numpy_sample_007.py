@@ -10,3 +10,9 @@ ar = ar.reshape( 2, 3 )
 
 print( np.delete(ar, 1, axis=0) )
 print( np.delete(ar, 1, axis=1) )
+
+
+# 実行結果
+# [[1 2 3]]
+# [[1 3]
+#  [4 6]]

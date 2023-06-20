@@ -6,3 +6,8 @@ import numpy as np
 ar = np.array([1,2,3,4,5,6])
 ar =ar.reshape( 2, 3 )
 print(ar)
+
+
+# 実行結果
+# [[1 2 3]
+#  [4 5 6]]

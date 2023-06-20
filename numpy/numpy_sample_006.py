@@ -13,3 +13,11 @@ ar2 = np.array([7,8,9])
 
 print( np.insert(ar1, 1, ar2, axis=0) )
 print( np.insert(ar1, 1, 0, axis=1) )
+
+
+# 実行結果
+# [[1 2 3]
+#  [7 8 9]
+#  [4 5 6]]
+# [[1 0 2 3]
+#  [4 0 5 6]]

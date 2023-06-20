@@ -14,3 +14,12 @@ ar2 = ar2.reshape( 2, 3 )
 
 print( np.append(ar1, ar2, axis=0) )
 print( np.append(ar1, ar2, axis=1) )
+
+
+# 実行結果
+# [[ 1  2  3]
+#  [ 4  5  6]
+#  [ 7  8  9]
+#  [10 11 12]]
+# [[ 1  2  3  7  8  9]
+#  [ 4  5  6 10 11 12]]
