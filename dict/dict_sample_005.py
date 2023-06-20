@@ -10,3 +10,8 @@ print(test_results)
 #chineseはないので追加
 test_results['chinese'] = 70
 print(test_results)
+
+
+# 実行結果
+# {'japanese': 90, 'math': 89, 'english': 79, 'science': 81, 'society': 93}
+# {'japanese': 90, 'math': 89, 'english': 79, 'science': 81, 'society': 93, 'chinese': 70}

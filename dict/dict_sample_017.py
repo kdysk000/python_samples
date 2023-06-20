@@ -6,3 +6,8 @@ test_results = { 'japanese':90, 'math':88, 'english':79, 'science':81, 'society'
 test_result = test_results.popitem()
 print(test_result)
 print(test_results)
+
+
+# 実行結果
+# ('chinese', 70)
+# {'japanese': 90, 'math': 88, 'english': 79, 'science': 81, 'society': 93}

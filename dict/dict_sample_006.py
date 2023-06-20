@@ -6,3 +6,7 @@ new_results = { 'japanese':91, 'chinese':70 }
 
 test_results.update(new_results)
 print(test_results)
+
+
+# 実行結果
+# {'japanese': 91, 'math': 88, 'english': 79, 'science': 81, 'society': 93, 'chinese': 70}

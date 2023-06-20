@@ -7,3 +7,8 @@ test_results_copy['japanese'] = 91
 
 print(test_results)
 print(test_results_copy)
+
+
+# 実行結果
+# {'japanese': 90, 'math': 88, 'english': 79, 'science': 81, 'society': 93}
+# {'japanese': 91, 'math': 88, 'english': 79, 'science': 81, 'society': 93}

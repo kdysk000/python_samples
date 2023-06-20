@@ -15,3 +15,8 @@ if 'chinese' not in test_results:
     print("chinese is not exist in dict")
 else:
     print("chinese is exist in dict")
+
+
+# 実行結果
+# math is exist in dict
+# chinese is not exist in dict

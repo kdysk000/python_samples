@@ -6,3 +6,10 @@ for subject in test_results:
     point = test_results[subject]
     print(str(subject) + ': ' + str(point))
     
+
+# 実行結果
+# japanese: 90
+# math: 88
+# english: 79
+# science: 81
+# society: 93

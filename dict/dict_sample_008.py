@@ -4,3 +4,7 @@ test_results = { 'japanese':90, 'math':88, 'english':79, 'science':81, 'society'
 
 test_results.clear()
 print(test_results)
+
+
+# 実行結果
+# {}
