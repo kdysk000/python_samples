@@ -1,4 +1,4 @@
-#複数リストの要素を順に取り出す (zip)
+# 複数リストの要素を順に取り出す (zip)
 
 name1 = [ 'suzuki ', 'tanaka ', 'yamamoto ', 'sato ' ]
 name2 = [ 'ichiro', 'jiro', 'saburo', 'siro' ]
