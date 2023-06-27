@@ -1,4 +1,4 @@
-# 値の抽出(単独要素)
+# DataFrameの値を抽出(at)
 # at[ index名, 列名 ]
 
 import pandas as pd

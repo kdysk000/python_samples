@@ -1,4 +1,4 @@
-# 値の抽出(単独要素)
+# DataFrameの値を抽出(iat)
 # iat[ 行番号, 列番号 ]
 
 import pandas as pd

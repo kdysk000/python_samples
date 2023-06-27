@@ -1,4 +1,4 @@
-# ソート
+# ソート (sort_index、sort_values)
 #
 # sort_index(ascending=True/False, inplace=True/False)
 # ascending：True 昇順、False 降順 (defaultはTrue)

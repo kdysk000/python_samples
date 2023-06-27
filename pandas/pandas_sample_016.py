@@ -1,4 +1,4 @@
-# 値の抽出(単独要素 or 複数要素)
+# DataFrameの値を抽出(単独要素 or 複数要素)(iloc)
 # iloc[ 行番号, 列番号 ]
 
 import pandas as pd
