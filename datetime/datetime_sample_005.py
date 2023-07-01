@@ -11,6 +11,7 @@ print(t.minute)
 print(t.second)
 print(t.microsecond)
 
+
 # 実行結果
 # <class 'datetime.time'>
 # 12:30:20.001230
