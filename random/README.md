@@ -1,0 +1,6 @@
+1. [0から1までのランダムな浮動小数点数を返す (random.random)](./random_sample_001.py)
+2. [指定された範囲のランダムな浮動小数点数を返す (random.uniform)](./random_sample_002.py)
+3. [指定された範囲のランダムな整数を返す (random.randint)](./random_sample_003.py)
+4. [リストからランダムに要素を返す (random.choice)](./random_sample_004.py)
+5. [リストの要素をランダムにシャッフルする (random.shuffle)](./random_sample_005.py)
+6. [リストからランダムに要素を抽出しリストで返す (random.sample)](./random_sample_006.py)
