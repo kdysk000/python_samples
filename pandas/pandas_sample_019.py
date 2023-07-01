@@ -1,4 +1,4 @@
-# CSV読み込み
+# CSV読み込み (read_csv)(index_col、usecols)
 # pd.read_csv( CSVファイルパス, header=ヘッダー行番号, index_col=index列番号, usecols=列番号 )
 # header：指定なしの場合は0行目
 # index_col：指定なしの場合はindex列は認識されない

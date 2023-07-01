@@ -1,6 +1,7 @@
 # 時刻の取得 (time.time、time.gmtime、time.ctime)
 # time() : システム時刻(UNIXタイム)の取得
 # 戻り値はfloat型
+# ※ UNIX時間は、1970年1月1日0時0分0秒を基準とし基準から何秒経っているかを表す時刻
 #
 # gmtime(secs) :
 # エポックからの経過時間で表現された時刻の取得

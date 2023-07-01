@@ -15,6 +15,7 @@ t2 = time.ctime()
 print(f"sleep前時間：{t1}")
 print(f"sleep後時間：{t2}")
 
+
 # 実行結果
 # sleep前時間：Tue Jun 27 22:03:44 2023
 # sleep後時間：Tue Jun 27 22:03:45 2023

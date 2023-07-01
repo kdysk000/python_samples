@@ -15,6 +15,7 @@ cnvtime = time.strptime(str, '%Y/%m/%d %H:%M:%S')
 
 print(cnvtime)
 
+
 # 実行結果
 # <class 'time.struct_time'>
 # time.struct_time(tm_year=2023, tm_mon=6, tm_mday=27, tm_hour=21, tm_min=34, tm_sec=42, tm_wday=1, tm_yday=178, tm_isdst=-1)

@@ -17,5 +17,6 @@ t2 = time.time()
 elapsed_time = t2-t1
 print(f"経過時間：{elapsed_time}")
 
+
 # 実行結果
 # 経過時間：0.34447216987609863
