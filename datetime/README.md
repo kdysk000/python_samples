@@ -1,0 +1,8 @@
+1. [現在の日時を取得 (datetime.datetime.now)](./datetime_sample_001.py)
+2. [任意の日時のdatetimeオブジェクトを作成 (datetime.datetime)](./datetime_sample_002.py)
+3. [現在の日付を取得 (datetime.date.today)](./datetime_sample_003.py)
+4. [任意の日付のdateオブジェクトを作成 (datetime.date)](./datetime_sample_004.py)
+5. [任意の時刻のtimeオブジェクトを作成 (datetime.time)](./datetime_sample_005.py)
+6. [日時の足し算、引き算(datetime.timedelta)](./datetime_sample_006.py)
+7. [日時を指定したフォーマットで文字列に変換 (datetime.strftime)](./datetime_sample_007.py)
+8. [任意のフォーマットの日時文字列からdatetimeオブジェクトを作成 (datetime.datetime.strptime)](./datetime_sample_008.py)

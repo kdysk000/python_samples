@@ -1,0 +1,6 @@
+1. [時刻の取得 (time.time、time.gmtime、time.ctime)](./time_sample_001.py)
+2. [時刻の文字列をオブジェクト(time.struct_time)に変換 (time.strptime)](./time_sample_002.py)
+3. [時刻を指定したフォーマットで文字列に変換 (time.strftime)](./time_sample_003.py)
+4. [処理を一時的に停止する (time.sleep)](./time_sample_004.py)
+5. [処理時間を計測する (time.time)](./time_sample_005.py)
+6. [処理時間を計測する (time.perf_counter)](./time_sample_006.py)
