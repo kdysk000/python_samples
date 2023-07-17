@@ -1,4 +1,4 @@
-# レコードの追加 (INSERT INTO)
+# レコードの取得 (SELECT)
 
 import MySQLdb
  
@@ -12,20 +12,21 @@ conn = MySQLdb.connect(
 )
 
 # テーブル名 users
-# +----+-------------+-----------+
-# | id | user_name   | password  |
-# +----+-------------+-----------+
+# +----+--------+-----------+
+# | id | name   | password  |
+# +----+--------+-----------+
 
 # カーソルを取得
 cur = conn.cursor()
 
 try:
     # SQL文を実行
-    sql = "insert into users (user_name, password) value('hogehoge', '0123456789'), ('fugafuga', 'abcdefghi')"
+    sql = "select * from users"
     cur.execute(sql)
 
-    # SQLの実行結果を保存
-    conn.commit()
+    # 取得したレコードを1行ずつ表示
+    for row in cur.fetchall():
+        print(row)
 
 except MySQLdb.Error as e:
     print('MySQLdb.Error: ', e)

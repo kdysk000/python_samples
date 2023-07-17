@@ -1,4 +1,4 @@
-# レコードの取得 (SELECT)
+# テーブルの作成 (CREATE TABLE)
 
 import MySQLdb
  
@@ -11,22 +11,18 @@ conn = MySQLdb.connect(
     passwd='secret'       # パスワード
 )
 
-# テーブル名 users
-# +----+-------------+-----------+
-# | id | user_name   | password  |
-# +----+-------------+-----------+
-
 # カーソルを取得
 cur = conn.cursor()
 
 try:
-    # SQL文を実行
-    sql = "select * from users"
+    # テーブルの作成
+    # テーブル名 users
+    # +----+--------+-----------+
+    # | id | name   | password  |
+    # +----+--------+-----------+
+    sql = "create table users (id integer primary key auto_increment, name varchar(100), password varchar(100))"
+    cur.execute("drop table users")  # 作成前に既存の同名テーブルを削除
     cur.execute(sql)
-
-    # 取得したレコードを1行ずつ表示
-    for row in cur.fetchall():
-        print(row)
 
 except MySQLdb.Error as e:
     print('MySQLdb.Error: ', e)
