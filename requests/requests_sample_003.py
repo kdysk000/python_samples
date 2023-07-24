@@ -1,6 +1,7 @@
 # GETメソッド (取得したデータ(ZIPなど)をファイルとして保存する場合)
 #
 # response.contentにバイナリデータが保存されているのでこれをファイルに書き出す
+#
 
 import requests
 
