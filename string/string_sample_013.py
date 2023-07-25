@@ -1,13 +1,10 @@
-# 特定のフレーズで始まっているかの判定(endswith)
+# 指定したプレフィックスを削除する(removeprefix) ※python3.9以降
 #
-# endswith(suffix)
-#   文字列がsuffixで指定されたフレーズで終わっていればTrue、そうでなければFalseを返す
+# removeprefix(prefix)
 
 str = 'this is a pen'
 
-print(str.endswith('this'))
-print(str.endswith('pen'))
+print(str.removeprefix('this '))
 
 # 実行結果
-# False
-# True
+# is a pen

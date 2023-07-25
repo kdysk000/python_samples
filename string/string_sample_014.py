@@ -1,10 +1,10 @@
-# 指定したプレフィックスを削除する(removeprefix) ※python3.9以降
+# 指定したサフィックスを削除する(removesuffix) ※python3.9以降
 #
-# removeprefix(prefix)
+# removesuffix(suffix)
 
 str = 'this is a pen'
 
-print(str.removeprefix('this '))
+print(str.removesuffix(' pen'))
 
 # 実行結果
-# is a pen
+# this is a
